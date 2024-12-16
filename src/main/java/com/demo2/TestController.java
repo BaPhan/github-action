@@ -38,9 +38,7 @@ public class TestController {
                     .body(null);
         }
     }
-
-    //method bapv
-    //test github action
+    //demo2
     @GetMapping("/bapv")
     public ResponseEntity<String> testGet2(){
         return ResponseEntity.ok("Build Jenkins 2!");
